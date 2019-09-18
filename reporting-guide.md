@@ -190,7 +190,7 @@ The JSON response includes the following information:
 
 ## Paginating Reports
 
-To paginate results, add a `limit` and `page` parameter to the `settings` object (lines 29-30 below):
+To paginate results, add a `limit` (the maximum limit per dimension is 50,000) and `page` parameter to the `settings` object (lines 29-30 below):
 
 ```json={line-numbers="yes"}
 {
